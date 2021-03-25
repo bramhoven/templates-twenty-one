@@ -1,7 +1,7 @@
 <!-- Styling -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 <link href="{assetPath file='all.min.css'}?v={$versionHash}" rel="stylesheet">
-<link href="{assetPath file='theme.min.css'}?v={$versionHash}" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <link href="{$WEB_ROOT}/assets/css/fontawesome-all.min.css" rel="stylesheet">
 {assetExists file="custom.css"}
 <link href="{$__assetPath__}" rel="stylesheet">
