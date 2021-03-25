@@ -81,7 +81,7 @@
             <div class="container">
                 <a class="navbar-brand mr-3" href="{$WEB_ROOT}/index.php">
                     {if $assetLogoPath}
-                        <img src="{$assetLogoPath}" alt="{$companyname}" class="logo-img">
+                        <img src="{$assetLogoPath}" alt="{$companyname}" class="logo-img" width="30">
                     {else}
                         {$companyname}
                     {/if}
